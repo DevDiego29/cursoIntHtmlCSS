@@ -1,0 +1,53 @@
+<h1>Formulário</h1>
+<form action="https://formspree.io/f/xknydrnr" method="POST">
+    <p>
+        <label>Digite seu nome</label><br>
+        <input placeholder="Digite aqui ..." type="text" required="required" value="" name="nome">
+    </p>
+
+    <p>
+        <label>Digite sua mensagem</label><br>
+        <textarea rows="10" cols="60" name="mensagem" required placeholder="Digite algo ...">Mensagem</textarea>
+    </p>
+    <p>
+        <label>Escolha os esportes que você pratica:</label><br>
+        <ul>
+            <li><input value="SIM" name="judo" type="checkbox">Judô</li>
+            <li><input value="SIM" name="futebol" type="checkbox">Futebol</li>
+            <li><input value="SIM" name="tenis" type="checkbox">Tênis</li>
+            <li><input value="SIM" name="basket" type="checkbox">Basket</li>
+            <li><input value="SIM" name="golf" type="checkbox">Golf</li>
+            <li><input value="SIM" name="futsal" type="checkbox">Futsal</li>
+            <li><input value="SIM" name="natacao" type="checkbox">Natação</li>
+        </ul>
+    </p>
+
+    <p>
+        <label>Escolha sua cor favorita:</label><br>
+        <ul>
+            <li><input value="VERMELHO" name="corFavorita" type="radio">Vermelho</li>
+            <li><input value="AZUL" name="corFavorita" type="radio">Azul</li>
+            <li><input value="AMARELO" name="corFavorita" type="radio">Amarelo</li>
+            <li><input value="PRETO" name="corFavorita" type="radio">Preto</li>
+            <li><input value="ROSA" name="corFavorita" type="radio">Rosa</li>
+            <li><input value="VERDE" name="corFavorita" type="radio">Verde</li>
+            <li><input value="BRANCO" name="corFavorita" type="radio">Branco</li>
+        </ul>
+    </p>
+
+    <p>
+        <label>Escolha a sua cidade:</label><br>
+        <select>
+            <option>São Paulo</option>
+            <option>Campina Grande</option>
+            <option>João Pessoa</option>
+            <option>Recife</option>
+            <option>Natal</option>
+        </select>
+    </p>
+
+    <p>
+        <input value="SIM" name="termosDoContrato" type="checkbox">Aceito os termos do site</input>
+    </p>
+    <button type="submit">Enviar</button>
+</form>
