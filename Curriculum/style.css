@@ -1,5 +1,5 @@
 #header{
-    background-color: bisque;
+    background-color: rgb(45, 9, 142);
     margin-top: 50px;
     margin-bottom: 50px;
     font-family: 'Hubballi', cursive;
@@ -21,7 +21,7 @@ h1, h2, h3 {
 }
 #contact i {
     width: 30px;
-    color: bisque;
+    color: rgb(196, 207, 255);
 }
 #container {
     display: grid;
